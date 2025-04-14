@@ -1,5 +1,5 @@
 {
-    "name": "beeLint-cli",
+    "name": "beelint-cli",
     "version": "1.0.0",
     "description": "简单好用的前端代码检脚手架",
     "main": "index.js",

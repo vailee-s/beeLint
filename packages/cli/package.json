@@ -1,5 +1,5 @@
 {
-    "name": "@beeLint/cli",
+    "name": "@vailee/beelint-cli",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,7 +9,8 @@
     },
     "files": [
         "dist",
-        "bin"
+        "bin",
+        "templates"
     ],
     "scripts": {
         "dev": "tsup --watch",
