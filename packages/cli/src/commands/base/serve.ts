@@ -3,15 +3,15 @@ import { spawn } from 'node:child_process'
 
 import { hasPnpm } from '../../utils/env'
 
-export const build = (program: Command) =>
+export const serve = (program: Command) =>
     program
-        .createCommand('build')
-        .description('build project')
+        .createCommand('serve')
+        .description('serve project')
         .action(async () => {
             const _hasPnpm = hasPnpm()
 
             const command = _hasPnpm ? 'pnpm' : 'npm'
-            const params = _hasPnpm ? ['build'] : ['run', 'build']
+            const params = _hasPnpm ? ['dev'] : ['run', 'dev']
 
             const child = spawn(command, params, {
                 stdio: 'inherit'

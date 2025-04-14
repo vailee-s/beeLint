@@ -1,8 +1,14 @@
 {
     "name": "beeLint-cli",
     "version": "1.0.0",
-    "description": "",
+    "description": "简单好用的前端代码检脚手架",
     "main": "index.js",
+    "packageManager": "pnpm@9.7.0",
+    "pnpm": {
+        "ignoreMissing": [
+            "*"
+        ]
+    },
     "scripts": {
         "dev": "turbo run dev",
         "build": "turbo run build",

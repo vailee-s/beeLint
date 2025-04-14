@@ -6,6 +6,7 @@ import { build } from './base/build'
 import { create } from './base/create'
 import { info } from './base/info'
 import { preview } from './base/preview'
+import { serve } from './base/serve'
 import { registerCommand } from './registerCommand'
 
 program.version(pkg.version).description(pkg.description)
@@ -25,3 +26,4 @@ registerCommand(build)
  */
 registerCommand(preview)
 registerCommand(create)
+registerCommand(serve)

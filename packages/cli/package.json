@@ -4,6 +4,9 @@
     "description": "",
     "main": "index.js",
     "types": "index.d.ts",
+    "bin": {
+        "beelint": "bin/beelint"
+    },
     "files": [
         "dist",
         "bin"
