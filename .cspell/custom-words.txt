@@ -1,2 +1,6 @@
-tsup
 vailee
+picocolors
+tsup
+unjs
+giget
+Avenir

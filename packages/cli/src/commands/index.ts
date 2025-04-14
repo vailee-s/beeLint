@@ -3,6 +3,7 @@ import { program } from 'commander'
 import pkg from '../../package.json'
 
 import { build } from './base/build'
+import { create } from './base/create'
 import { info } from './base/info'
 import { preview } from './base/preview'
 import { registerCommand } from './registerCommand'
@@ -23,3 +24,4 @@ registerCommand(build)
  * Register the preview command
  */
 registerCommand(preview)
+registerCommand(create)
